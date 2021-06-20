@@ -10,26 +10,49 @@ Using the credit card credit dataset, we’ll oversample the data using the Rand
 ## Results
 
 1. RandomOverSampler
+
+![RandomOverSampler](./Resources/1_ROS.png)
+
     - Balanced accuracy score: `0.65`
     - Precision: HR= `0.01` LR= `1`
     - Recall: HR= `0.69` LR= `0.60`
+
 2. SMOTE
+
+![SMOTE](./Resources/2_SMOTE.png)
+
     - Balanced accuracy score: `0.66`
     - Precision: HR= `0.01` LR= `1`
     - Recall: HR= `0.63` LR= `0.69`
+
 3. ClusterCentroids
+
+![ClusterCentroids](./Resources/3_CC.png)
+
     - Balanced accuracy score: `0.54`
     - Precision: HR= `0.01` LR= `1`
     - Recall: HR= `0.69` LR= `0.40`
+
 4. SMOTEENN
+
+![SMOTEENN](./Resources/4_SMOTEENN.png)
+
     - Balanced accuracy score: `0.54`
     - Precision: HR= `0.01` LR= `1`
     - Recall: HR= `0.72` LR= `0.57`
+
 5. BalancedRandomForestClassifier
+
+![BalancedRandomForestClassifier](./Resources/5_BRFC.png)
+
     - Balanced accuracy score: `0.79`
     - Precision: HR= `0.03` LR= `1`
     - Recall: HR= `0.70` LR= `0.87`
+
 6. EasyEnsembleClassifier
+
+![EasyEnsembleClassifier](./Resources/6_EEC.png)
+
     - Balanced accuracy score: `0.93`
     - Precision: HR= `0.09` LR= `1`
     - Recall: HR= `0.92` LR= `0.94`
